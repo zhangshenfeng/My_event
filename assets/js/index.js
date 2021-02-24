@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> main
 $(function () { 
     getUserInfo();
       // 点击按钮，实现退出功能
@@ -33,8 +38,7 @@ function getUserInfo() {
     })
 };
 function rendatavator(user) {
-    // console.log(user);
-    const username = user.username || user.nickname
+    const username = user.nickname || user.username
     $("#welcome").html(username)
     if (user.user_pic) {
         $(".layui-nav-img").attr("src", user.user_pic).show()

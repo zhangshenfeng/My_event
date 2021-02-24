@@ -8,7 +8,7 @@ $.ajaxPrefilter(function (options) {
         }
     };
     options.complete=function (response) { 
-        console.log(response);
+        // console.log(response);
 
         //解构
         const { message, status } = response.responseJSON;
