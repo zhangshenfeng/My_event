@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> main
+
 $(function () { 
     getUserInfo();
       // 点击按钮，实现退出功能
