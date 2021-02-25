@@ -14,3 +14,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+#form-add {
+    padding: 50px 20px;
+}
